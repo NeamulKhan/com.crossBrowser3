@@ -1,104 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-29T01:50:09 EDT" name="Surefire suite" finished-at="2025-03-29T01:50:18 EDT" duration-ms="9058">
+  <suite started-at="2025-04-01T20:59:34 EDT" name="Surefire suite" finished-at="2025-04-01T20:59:41 EDT" duration-ms="7119">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunnercrossBrowser3.TestRunnercrossBrowser3@2b71e916]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-03-29T01:50:09 EDT" name="Surefire test" finished-at="2025-03-29T01:50:18 EDT" duration-ms="9058">
+    <test started-at="2025-04-01T20:59:34 EDT" name="Surefire test" finished-at="2025-04-01T20:59:41 EDT" duration-ms="7119">
       <class name="testRunnercrossBrowser3.TestRunnercrossBrowser3">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testRunnercrossBrowser3.TestRunnercrossBrowser3@2b71e916]" started-at="2025-03-29T01:50:09 EDT" name="setUp" finished-at="2025-03-29T01:50:10 EDT" duration-ms="1544" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testRunnercrossBrowser3.TestRunnercrossBrowser3@2b71e916]" started-at="2025-04-01T20:59:34 EDT" name="setUp" finished-at="2025-04-01T20:59:35 EDT" duration-ms="1435" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunnercrossBrowser3.TestRunnercrossBrowser3@2b71e916]" started-at="2025-03-29T01:50:11 EDT" name="setUpClass" finished-at="2025-03-29T01:50:11 EDT" duration-ms="383" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunnercrossBrowser3.TestRunnercrossBrowser3@2b71e916]" started-at="2025-04-01T20:59:35 EDT" name="setUpClass" finished-at="2025-04-01T20:59:35 EDT" duration-ms="406" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@12a2585b]]>
+                <![CDATA[org.testng.TestRunner@36e43829]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunnercrossBrowser3.TestRunnercrossBrowser3@2b71e916]" started-at="2025-03-29T01:50:11 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-29T01:50:15 EDT" duration-ms="4207" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunnercrossBrowser3.TestRunnercrossBrowser3@2b71e916]" started-at="2025-04-01T20:59:35 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-01T20:59:39 EDT" duration-ms="3775" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Launch website and Navigate to Registration Page"]]>
+                <![CDATA["Successful signup with valid details"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["User Registration on Always Fashion"]]>
+                <![CDATA["User signup functionality"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunnercrossBrowser3.TestRunnercrossBrowser3@2b71e916]" started-at="2025-03-29T01:50:15 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-29T01:50:16 EDT" duration-ms="1268" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Successful registration with valid details"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["User Registration on Always Fashion"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.JavascriptException">
-            <message>
-              <![CDATA[javascript error: missing ) after argument list
-  (Session info: chrome=134.0.6998.178)
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [72b44196dcd1bec4effd41ee79002bf4, executeScript {script=window.scrollBy(0,500, args=[]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52534}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52534/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 72b44196dcd1bec4effd41ee79002bf4]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.JavascriptException: javascript error: missing ) after argument list
-  (Session info: chrome=134.0.6998.178)
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [72b44196dcd1bec4effd41ee79002bf4, executeScript {script=window.scrollBy(0,500, args=[]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52534}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52534/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 72b44196dcd1bec4effd41ee79002bf4
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:472)
-at pageActionBrowser3.RegisterpageActionBrowser3.user_enter_lastName(RegisterpageActionBrowser3.java:34)
-at stepDefinationcrossBrowser3.RegistercrossBrowser3.user_enters_the_following_details(RegistercrossBrowser3.java:70)
-at ✽.User enters the following details:(file:///C:/workspaces/projects/com.crossBrowser3/src/test/resources/featureFoldercrossBrowser3/RegistercrossBrowser3.feature:16)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.JavascriptException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunnercrossBrowser3.TestRunnercrossBrowser3@2b71e916]" started-at="2025-03-29T01:50:16 EDT" name="tearDownClass" finished-at="2025-03-29T01:50:18 EDT" duration-ms="1474" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunnercrossBrowser3.TestRunnercrossBrowser3@2b71e916]" started-at="2025-04-01T20:59:39 EDT" name="tearDownClass" finished-at="2025-04-01T20:59:41 EDT" duration-ms="1312" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testRunnercrossBrowser3.TestRunnercrossBrowser3@2b71e916]" started-at="2025-03-29T01:50:18 EDT" name="tearDown" finished-at="2025-03-29T01:50:18 EDT" duration-ms="137" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testRunnercrossBrowser3.TestRunnercrossBrowser3@2b71e916]" started-at="2025-04-01T20:59:41 EDT" name="tearDown" finished-at="2025-04-01T20:59:41 EDT" duration-ms="150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

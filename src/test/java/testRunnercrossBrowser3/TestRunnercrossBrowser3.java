@@ -9,7 +9,7 @@ import utilitycrossBrowser3.BaseClasscrossBrowser3;
 
 @CucumberOptions(features= {"src/test/resources/featureFoldercrossBrowser3"},
 plugin={"json:target/cucumber.json"},
-glue="stepDefinationcrossBrowser3", tags= "@Registration",
+glue="stepDefinationcrossBrowser3", tags= "@Signup",
 
 monochrome = true,
 publish = true

@@ -15,16 +15,16 @@ Given User is on the registration page
 When User select gender
 When User enters the following details:
       | Field           | Value              |
-      | First Name      | John               |
-      | Last Name       | Smith              |
+      | FirstName      | John               |
+      | LastName       | Smith              |
       | Email           | johnsm1@example.com |
-      | Date of Birth   | 6                  |
-      | Month of Birth  | July               |
-      | Year of Birth   | 1976               |
+      | Date_of_Birth   | 6                  |
+      | Month_of_Birth  | July               |
+      | Year_of_Birth   | 1976               |
       | Country         | Canada             |
-      | Phone Number    | 506-234-5678       |
+      | PhoneNumber    | 506-234-5678       |
       | Password        | 123456             |
-      | Confirm Password | 123456            |
+      | Confirm_Password | 123456            |
 And User agrees to the terms and conditions
 And User clicks on the Register button
 Then User should be successfully registered

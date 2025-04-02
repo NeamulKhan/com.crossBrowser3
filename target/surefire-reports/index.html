@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
-              <span class="suite-name border-failed">Surefire suite</span>
+              <span class="suite-name border-passed">Surefire suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,21 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
-                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Surefire_suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="testRunnercrossBrowser3.TestRunnercrossBrowser3" class="method navigator-link" hash-for-method="runScenario(&quot;Successful registration with valid details&quot;, &quot;User Registration on Always Fashion&quot;)">runScenario("Successful registration with valid details", "User Registration on Always Fashion")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -117,7 +103,7 @@
                     <div class="method-list-content passed suite-Surefire_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="testRunnercrossBrowser3.TestRunnercrossBrowser3" class="method navigator-link" hash-for-method="runScenario(&quot;Launch website and Navigate to Registration Page&quot;, &quot;User Registration on Always Fashion&quot;)">runScenario("Launch website and Navigate to Registration Page", "User Registration on Always Fashion")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="testRunnercrossBrowser3.TestRunnercrossBrowser3" class="method navigator-link" hash-for-method="runScenario(&quot;Successful signup with valid details&quot;, &quot;User signup functionality&quot;)">runScenario("Successful signup with valid details", "User signup functionality")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
@@ -132,45 +118,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
-          <div class="suite-Surefire_suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">testRunnercrossBrowser3.TestRunnercrossBrowser3</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Successful registration with valid details&quot;, &quot;User Registration on Always Fashion&quot;)">
-                  </a> <!-- runScenario("Successful registration with valid details", "User Registration on Always Fashion") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Successful registration with valid details","User Registration on Always Fashion")</span>
-                  <div class="stack-trace">org.openqa.selenium.JavascriptException: javascript error: missing ) after argument list
-  (Session info: chrome=134.0.6998.178)
-Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [72b44196dcd1bec4effd41ee79002bf4, executeScript {script=window.scrollBy(0,500, args=[]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52534}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52534/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 72b44196dcd1bec4effd41ee79002bf4
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:472)
-	at pageActionBrowser3.RegisterpageActionBrowser3.user_enter_lastName(RegisterpageActionBrowser3.java:34)
-	at stepDefinationcrossBrowser3.RegistercrossBrowser3.user_enters_the_following_details(RegistercrossBrowser3.java:70)
-	at ✽.User enters the following details:(file:///C:/workspaces/projects/com.crossBrowser3/src/test/resources/featureFoldercrossBrowser3/RegistercrossBrowser3.feature:16)
-... Removed 3 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-failed -->
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -179,10 +126,10 @@ Session ID: 72b44196dcd1bec4effd41ee79002bf4
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Launch website and Navigate to Registration Page&quot;, &quot;User Registration on Always Fashion&quot;)">
-                  </a> <!-- runScenario("Launch website and Navigate to Registration Page", "User Registration on Always Fashion") -->
+                  <a name="runScenario(&quot;Successful signup with valid details&quot;, &quot;User signup functionality&quot;)">
+                  </a> <!-- runScenario("Successful signup with valid details", "User signup functionality") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Launch website and Navigate to Registration Page","User Registration on Always Fashion")</span>
+                  <span class="parameters">("Successful signup with valid details","User signup functionality")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -248,20 +195,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'testRunnercrossBrowser3.TestRunnercrossBrowser3')
-data.setCell(0, 3, 4207);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'runScenario')
-data.setCell(1, 2, 'testRunnercrossBrowser3.TestRunnercrossBrowser3')
-data.setCell(1, 3, 1268);
+data.setCell(0, 3, 3775);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -293,26 +236,20 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@12a2585b)</span>
-                <span class="method-start">1556 ms</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@36e43829)</span>
+                <span class="method-start">1444 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">runScenario("Launch website and Navigate to Registration Page", "User Registration on Always Fashion")</span>
-                <span class="method-start">1949 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">runScenario("Successful registration with valid details", "User Registration on Always Fashion")</span>
-                <span class="method-start">6158 ms</span>
+                <span class="method-name">runScenario("Successful signup with valid details", "User signup functionality")</span>
+                <span class="method-start">1861 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">7432 ms</span>
+                <span class="method-start">5639 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">8911 ms</span>
+                <span class="method-start">6956 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

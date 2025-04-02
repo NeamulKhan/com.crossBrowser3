@@ -1,18 +1,22 @@
 package pageLocatorsBrowser3;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import utilitycrossBrowser3.BaseClasscrossBrowser3;
 
-public class RegisterPageLocatorBrowser3 extends BaseClasscrossBrowser3{
+public class SignuppageLocatorsBrowser3 extends BaseClasscrossBrowser3{
 	
-		public RegisterPageLocatorBrowser3 () {
+	
+	public SignuppageLocatorsBrowser3() {
 		
 		PageFactory.initElements(driver,this);	
 	}
-
+	
 	@FindBy(xpath="(//div[@for='gender-male'])[1]")
 	public WebElement gender;
 	
@@ -34,8 +38,8 @@ public class RegisterPageLocatorBrowser3 extends BaseClasscrossBrowser3{
 	@FindBy(xpath="(//select[@name='DateOfBirthYear'])[1]")
 	public WebElement yearOfBirthDay;
 	
-//	@FindBy(xpath="//div[@class='iti__selected-flag']")
-	@FindBy(xpath="//*[@id=\"register-page\"]/body/div[6]/section/div/div/div/div[3]/div/div/div[2]/div/div/form/div[2]/div/div/div/div/div[2]/div/div")
+	@FindBy(xpath="//div[@class='iti__selected-flag']")
+	//@FindBy(xpath="//*[@id=\"register-page\"]/body/div[6]/section/div/div/div/div[3]/div/div/div[2]/div/div/form/div[2]/div/div/div/div/div[2]/div/div")
 	public WebElement countryFlagContainer;
 	
 	@FindBy(xpath="//li[contains(@class, 'iti__country') and contains(., 'Canada')]")
@@ -57,3 +61,6 @@ public class RegisterPageLocatorBrowser3 extends BaseClasscrossBrowser3{
 	public WebElement registerButton;
 	
 }
+
+
+
