@@ -8,6 +8,7 @@ import org.openqa.selenium.support.ui.Select;
 
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pageActionBrowser3.SignuppageActionBrowser3;
 import pageLocatorsBrowser3.SignuppageLocatorsBrowser3;
@@ -36,13 +37,25 @@ public class SignupcrossBrowser3 extends BaseClasscrossBrowser3{
 		signuppageActionBrowser3.user_enter_the_following_details(dataTable);
 			
 	}
-		
+	
+	@When("User check to the terms and conditions")
+	public void user_check_to_the_terms_and_conditions() {
+	    
+		signuppageActionBrowser3.user_check_to_the_terms_and_conditions();
+	}
 	
 	@When("User clicks on the signup button")
 	public void user_clicks_on_the_signup_button() {
 	   
-		
+		signuppageActionBrowser3.user_clicks_on_the_signup_button();
 	}
 
-
-}
+	@Then("User should be successfully signedup")
+	public void user_should_be_successfully_signedup() {
+	  
+	//	signuppageActionBrowser3.user_should_be_successfully_signedup(false);
+		
+		signuppageActionBrowser3.user_should_be_successfully_signedup();
+	}
+	
+	}

@@ -17,8 +17,8 @@ When User enters the following details in signup feilds:
 |PhoneNumber      | 506-234-5678        |
 |Password         | 123456              |
 |Confirm_Password | 123456              |
-And User agrees to the terms and conditions
+And User check to the terms and conditions
 And User clicks on the signup button
-Then User should be successfully registered
-And User should see a successful registration message
+Then User should be successfully signedup
+
  

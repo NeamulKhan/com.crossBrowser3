@@ -5,9 +5,11 @@ import java.util.List;
 import java.util.Map;
 
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 import io.cucumber.datatable.DataTable;
 import pageLocatorsBrowser3.SignuppageLocatorsBrowser3;
@@ -83,9 +85,59 @@ public class SignuppageActionBrowser3 extends BaseClasscrossBrowser3{
 	                System.out.println("Unknown field: " + fieldName);
 	        }
 	    }
-
+	    
+	   
+	}
+	
+	public void user_check_to_the_terms_and_conditions() {
+		
+		wait.until(ExpectedConditions.visibilityOf(signuppageLocatorsBrowser3.acceptPrivacy)).click();
+	}
+	
+	public void  user_clicks_on_the_signup_button() {
+		
+		wait.until(ExpectedConditions.visibilityOf(signuppageLocatorsBrowser3.registerButton)).click();
+		
 	}
 	
 	
-
+	public void user_should_be_successfully_signedup() {
+		
+		WebElement welcomeMsgElement = wait.until(ExpectedConditions.visibilityOf(signuppageLocatorsBrowser3.welcomeMsg));	
+		WebElement existMsgElement = wait.until(ExpectedConditions.visibilityOf(signuppageLocatorsBrowser3.existMsg));
+		
+		if (welcomeMsgElement.isDisplayed()) {
+			
+			 System.out.println("✅ User successfully registered!");
+	            Assert.assertTrue(welcomeMsgElement.isDisplayed(),"User registration failed!");
+	           
+	        }else if (existMsgElement.isDisplayed()){
+	        	
+	        	System.out.println("⚠️ User already exists!");
+	            Assert.assertTrue( existMsgElement.isDisplayed(),"User already exists message not displayed!");
+		}
+	}
+	
+/*	public void user_should_be_successfully_signedup(boolean isNewUser) {
+		
+		// Check if the user is new or already exists
+		
+		
+		
+		if (isNewUser) {
+			
+			//Verify if the user has been successfully signed up
+			
+			WebElement welcomeMsgElement = wait.until(ExpectedConditions.visibilityOf(signuppageLocatorsBrowser3.welcomeMsg));
+			boolean userRegistered = welcomeMsgElement.isDisplayed();
+			Assert.assertTrue(userRegistered);
+			
+		}else {
+			// Verify if the user already exist
+			WebElement existMsgElement = wait.until(ExpectedConditions.visibilityOf(signuppageLocatorsBrowser3.existMsg));
+			boolean userExist = existMsgElement.isDisplayed();
+			Assert.assertTrue(userExist);
+		}
+		
+	}*/
 }

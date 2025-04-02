@@ -2,30 +2,30 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-01T20:59:34 EDT" name="Surefire suite" finished-at="2025-04-01T20:59:41 EDT" duration-ms="7119">
+  <suite started-at="2025-04-02T00:03:53 EDT" name="Surefire suite" finished-at="2025-04-02T00:03:56 EDT" duration-ms="3339">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunnercrossBrowser3.TestRunnercrossBrowser3@2b71e916]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-04-01T20:59:34 EDT" name="Surefire test" finished-at="2025-04-01T20:59:41 EDT" duration-ms="7119">
+    <test started-at="2025-04-02T00:03:53 EDT" name="Surefire test" finished-at="2025-04-02T00:03:56 EDT" duration-ms="3339">
       <class name="testRunnercrossBrowser3.TestRunnercrossBrowser3">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testRunnercrossBrowser3.TestRunnercrossBrowser3@2b71e916]" started-at="2025-04-01T20:59:34 EDT" name="setUp" finished-at="2025-04-01T20:59:35 EDT" duration-ms="1435" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testRunnercrossBrowser3.TestRunnercrossBrowser3@2b71e916]" started-at="2025-04-02T00:03:53 EDT" name="setUp" finished-at="2025-04-02T00:03:54 EDT" duration-ms="1493" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunnercrossBrowser3.TestRunnercrossBrowser3@2b71e916]" started-at="2025-04-01T20:59:35 EDT" name="setUpClass" finished-at="2025-04-01T20:59:35 EDT" duration-ms="406" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunnercrossBrowser3.TestRunnercrossBrowser3@2b71e916]" started-at="2025-04-02T00:03:54 EDT" name="setUpClass" finished-at="2025-04-02T00:03:54 EDT" duration-ms="410" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@36e43829]]>
+                <![CDATA[org.testng.TestRunner@656922a0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunnercrossBrowser3.TestRunnercrossBrowser3@2b71e916]" started-at="2025-04-01T20:59:35 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-01T20:59:39 EDT" duration-ms="3775" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunnercrossBrowser3.TestRunnercrossBrowser3@2b71e916]" started-at="2025-04-02T00:03:54 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-02T00:03:55 EDT" duration-ms="97" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,11 +41,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunnercrossBrowser3.TestRunnercrossBrowser3@2b71e916]" started-at="2025-04-01T20:59:39 EDT" name="tearDownClass" finished-at="2025-04-01T20:59:41 EDT" duration-ms="1312" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunnercrossBrowser3.TestRunnercrossBrowser3@2b71e916]" started-at="2025-04-02T00:03:55 EDT" name="tearDownClass" finished-at="2025-04-02T00:03:56 EDT" duration-ms="1179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testRunnercrossBrowser3.TestRunnercrossBrowser3@2b71e916]" started-at="2025-04-01T20:59:41 EDT" name="tearDown" finished-at="2025-04-01T20:59:41 EDT" duration-ms="150" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testRunnercrossBrowser3.TestRunnercrossBrowser3@2b71e916]" started-at="2025-04-02T00:03:56 EDT" name="tearDown" finished-at="2025-04-02T00:03:56 EDT" duration-ms="126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

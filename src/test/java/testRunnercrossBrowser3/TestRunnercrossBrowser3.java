@@ -11,6 +11,7 @@ import utilitycrossBrowser3.BaseClasscrossBrowser3;
 plugin={"json:target/cucumber.json"},
 glue="stepDefinationcrossBrowser3", tags= "@Signup",
 
+dryRun = true,
 monochrome = true,
 publish = true
 		)

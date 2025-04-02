@@ -60,6 +60,12 @@ public class SignuppageLocatorsBrowser3 extends BaseClasscrossBrowser3{
 	@FindBy (id ="register-button")
 	public WebElement registerButton;
 	
+	@FindBy(xpath="(//div[@class='register-result-subtitle'])[1]")
+	public WebElement welcomeMsg;
+	
+	@FindBy(xpath="(//li[normalize-space()='Current customer is already registered'])[1]")
+	public WebElement existMsg;
+	
 }
 
 
